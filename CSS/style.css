@@ -1,0 +1,118 @@
+*{
+  outline: 1px;
+  color: orange;
+}
+
+
+body{
+    width: 100%;
+    height: 150vh;
+    background: linear-gradient(
+      to top,
+      #f8f7f3 0%,
+      #f8f7f3 50%,
+      #255a5b 50%,
+      #255a5b 100%
+    );
+  } 
+
+h1{
+    font-family: Neue Montreal,Helvetica,Arial,sans-serif;
+    text-align: center; 
+    padding-top: 0px;
+    word-spacing: 12em; 
+    color: #f8f7f3;
+    
+}
+
+.navmenu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+    font-family: Neue Montreal,Helvetica,Arial,sans-serif;
+    margin-top: -200px;
+    font-size: smaller;
+       
+}
+
+li {
+  margin-left: 15px;
+  margin-right: 15px;
+  }
+  
+
+.left-container,
+.right-container {
+	display: flex;
+	flex-flow: row nowrap;
+  color: #f8f7f3;
+  padding-top: 50px;
+}
+
+.left-container {
+	justify-content: flex-start;
+  margin-left: -250px;
+}
+
+.right-container {
+	justify-content: flex-end;
+  margin-right: -180px;
+}
+
+.reserv {
+  background-color:#956c48;
+  padding: 20px;
+
+}
+
+.leftoptions, .rightoptions {
+  display: flex;
+	flex-flow: row nowrap;
+  column-gap: 1px;
+	align-items: center;
+	color: #fff;
+}
+ 
+.mainimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 110px;
+}
+
+.main {
+  color: white;
+  text-decoration: none;
+}
+
+
+.insta{
+  display: flex;
+  font-family: Neue Montreal,Helvetica,Arial,sans-serif;
+  transform: rotate(-90deg);
+  margin-left: -1400px;
+  margin-top: -1680px;
+  font-size: small;
+}
+
+
+a:hover{
+  text-decoration: underline;
+}
+
+
+a.insta:link {
+  color: white;
+  text-decoration: none;
+}
+a.insta:visited { 
+  color: white;
+  text-decoration: none;
+}
+a.insta:hover, a.insta:active { 
+  color: white;
+  text-decoration: underline;
+}
